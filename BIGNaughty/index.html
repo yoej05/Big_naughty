@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>BIG Naughty</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: 'Cafe24Lovingu';
+      src: url('assets/font/Cafe24Lovingu.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'ChosunCentennial';
+      src: url('assets/font/ChosunCentennial_ttf.ttf') format('truetype');
+    }
+
+    body {
+      background-color: #0e2238;
+      color: white;
+      font-family: 'ChosunCentennial', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #f5c23c;
+      font-family: 'Cafe24Lovingu', sans-serif;
+    }
+
+    .section-title {
+      border-bottom: 2px solid #f5c23c;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .nav-link {
+      cursor: pointer;
+    }
+
+    .grid-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .grid-item {
+      background-color: #1e3a5f;
+      padding: 1.5rem;
+      border-radius: 12px;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .grid-item:hover {
+      background-color: #f5c23c;
+      color: #0e2238;
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="fixed-top bg-dark py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="logo"><a href="#intro" style="color: #f5c23c; text-decoration: none;">BIG Naughty</a></h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-light" href="#intro">홈</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#about">BIG Naughty' romance</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#ep02">EP 02. 낭만</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#ep03">EP 03. 호프리스 로맨틱</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#write">Write Your Romance</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#lyrics">Lyric Links</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#stay">Stay Romantic</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="intro" class="d-flex align-items-center justify-content-center" style="height:100vh;">
+    <div class="text-center">
+      <h1 class="display-4">"BIG Naughty"</h1>
+      <p class="lead">래퍼</p>
+    </div>
+  </section>
+
+  <!-- BIG Naughty' romance Section -->
+  <section id="about" class="container py-5">
+    <h2 class="section-title">BIG Naughty' romance</h2>
+    <div class="grid-box">
+      <div class="grid-item">기본 정보</div>
+      <div class="grid-item">활동 이력 타임라인</div>
+      <div class="grid-item">낭만에 대한 아티스트 발언</div>
+    </div>
+  </section>
+
+  <!-- EP 02. 낭만 Section -->
+  <section id="ep02" class="container py-5">
+    <h2 class="section-title">EP 02. 낭만</h2>
+    <div class="grid-box">
+      <div class="grid-item">낭만에 대한 아티스트 발언</div>
+      <div class="grid-item">사용자 낭만 텍스트</div>
+      <div class="grid-item">사용자 감성 공유</div>
+    </div>
+  </section>
+
+  <!-- EP 03. 호프리스 로맨틱 Section -->
+  <section id="ep03" class="container py-5">
+    <h2 class="section-title">EP 03. 호프리스 로맨틱</h2>
+    <div class="grid-box">
+      <div class="grid-item">앨범 커버</div>
+      <div class="grid-item">곡 소개</div>
+      <div class="grid-item">감성 비주얼 자료</div>
+    </div>
+  </section>
+
+  <!-- Write Your Romance Section -->
+  <section id="write" class="container py-5">
+    <h2 class="section-title">Write Your Romance</h2>
+    <div class="grid-box">
+      <div class="grid-item">설명</div>
+      <div class="grid-item">낭만 적기 입력란</div>
+      <div class="grid-item">제출 버튼</div>
+    </div>
+  </section>
+
+  <!-- Lyric Links Section -->
+  <section id="lyrics" class="container py-5">
+    <h2 class="section-title">Lyric Links</h2>
+    <div class="grid-box">
+      <div class="grid-item">가사 선택</div>
+      <div class="grid-item">가사에 맞는 음악 연결</div>
+      <div class="grid-item">해당 가사 기반 감성 해석</div>
+    </div>
+  </section>
+
+  <!-- Stay Romantic Section -->
+  <section id="stay" class="container py-5">
+    <h2 class="section-title">Stay Romantic</h2>
+    <div class="grid-box">
+      <div class="grid-item">아티스트의 낭만 유지 철학</div>
+      <div class="grid-item">전체 브랜드 감성 마무리</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark">
+    <p class="text-light mb-0">&copy; 2025 BIG Naughty. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
